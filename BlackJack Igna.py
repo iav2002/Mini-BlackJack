@@ -69,6 +69,15 @@ class Hand:
         pass
 
 
+
+# In[]:
+test_deck = Deck()
+test_deck.shuffle()
+test_player = Hand()
+test_player.add_card(test_deck.deal())
+test_player.add_card(test_deck.deal())
+test_player.value
+
 # In[5]:
 
 
